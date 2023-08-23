@@ -10,7 +10,7 @@ if seckey == 1:
     time.sleep(1)
     print("Generated")
     time.sleep(0.5)
-    l = []
+    l = []#list
     if repeat == 1:
         for i in range(0, 100):
             a = random.randint(0, 9)
